@@ -23,6 +23,30 @@
 		73A58BFE174C4EB200778061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58BD9174C4EB200778061 /* Foundation.framework */; };
 		73A58C06174C4EB200778061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C04174C4EB200778061 /* InfoPlist.strings */; };
 		73A58C09174C4EB200778061 /* SBUTransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C08174C4EB200778061 /* SBUTransitTests.m */; };
+		73A58C13174C4ED300778061 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C12174C4ED300778061 /* GoogleMaps.framework */; };
+		73A58C15174C4F3400778061 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C14174C4F3400778061 /* GoogleMaps.bundle */; };
+		73A58C17174C4F5F00778061 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C16174C4F5F00778061 /* AVFoundation.framework */; };
+		73A58C19174C4F6800778061 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C18174C4F6800778061 /* CoreData.framework */; };
+		73A58C1B174C4F6E00778061 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C1A174C4F6E00778061 /* CoreLocation.framework */; };
+		73A58C1D174C4F7400778061 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C1C174C4F7400778061 /* CoreText.framework */; };
+		73A58C1F174C4F7B00778061 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C1E174C4F7B00778061 /* GLKit.framework */; };
+		73A58C21174C4F7F00778061 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C20174C4F7F00778061 /* ImageIO.framework */; };
+		73A58C23174C4F8900778061 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C22174C4F8900778061 /* libc++.dylib */; };
+		73A58C25174C4F9100778061 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C24174C4F9100778061 /* libz.dylib */; };
+		73A58C27174C4FAB00778061 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C26174C4FAB00778061 /* libicucore.dylib */; };
+		73A58C29174C4FB300778061 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C28174C4FB300778061 /* OpenGLES.framework */; };
+		73A58C2B174C4FB900778061 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C2A174C4FB900778061 /* QuartzCore.framework */; };
+		73A58C2D174C4FBF00778061 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A58C2C174C4FBF00778061 /* SystemConfiguration.framework */; };
+		73A58C3D174C53E100778061 /* AKTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C30174C53E100778061 /* AKTab.m */; };
+		73A58C3E174C53E100778061 /* AKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C32174C53E100778061 /* AKTabBar.m */; };
+		73A58C3F174C53E100778061 /* AKTabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C34174C53E100778061 /* AKTabBarController.bundle */; };
+		73A58C40174C53E100778061 /* AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C36174C53E100778061 /* AKTabBarController.m */; };
+		73A58C41174C53E100778061 /* AKTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C38174C53E100778061 /* AKTabBarView.m */; };
+		73A58C42174C53E100778061 /* UINavigationController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C3A174C53E100778061 /* UINavigationController+AKTabBarController.m */; };
+		73A58C43174C53E100778061 /* UIViewController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A58C3C174C53E100778061 /* UIViewController+AKTabBarController.m */; };
+		73A58C46174C6A5500778061 /* bus_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C45174C6A5500778061 /* bus_stop.png */; };
+		73A58C49174C6A7000778061 /* sb_bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C47174C6A7000778061 /* sb_bus.png */; };
+		73A58C4A174C6A7000778061 /* suffolk_transit.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A58C48174C6A7000778061 /* suffolk_transit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +82,37 @@
 		73A58C05174C4EB200778061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73A58C07174C4EB200778061 /* SBUTransitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBUTransitTests.h; sourceTree = "<group>"; };
 		73A58C08174C4EB200778061 /* SBUTransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBUTransitTests.m; sourceTree = "<group>"; };
+		73A58C12174C4ED300778061 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		73A58C14174C4F3400778061 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		73A58C16174C4F5F00778061 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		73A58C18174C4F6800778061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		73A58C1A174C4F6E00778061 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		73A58C1C174C4F7400778061 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		73A58C1E174C4F7B00778061 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		73A58C20174C4F7F00778061 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		73A58C22174C4F8900778061 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		73A58C24174C4F9100778061 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		73A58C26174C4FAB00778061 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		73A58C28174C4FB300778061 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		73A58C2A174C4FB900778061 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73A58C2C174C4FBF00778061 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		73A58C2F174C53E100778061 /* AKTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTab.h; sourceTree = "<group>"; };
+		73A58C30174C53E100778061 /* AKTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTab.m; sourceTree = "<group>"; };
+		73A58C31174C53E100778061 /* AKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBar.h; sourceTree = "<group>"; };
+		73A58C32174C53E100778061 /* AKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBar.m; sourceTree = "<group>"; };
+		73A58C33174C53E100778061 /* AKTabBarController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		73A58C34174C53E100778061 /* AKTabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKTabBarController.bundle; sourceTree = "<group>"; };
+		73A58C35174C53E100778061 /* AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBarController.h; sourceTree = "<group>"; };
+		73A58C36174C53E100778061 /* AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBarController.m; sourceTree = "<group>"; };
+		73A58C37174C53E100778061 /* AKTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBarView.h; sourceTree = "<group>"; };
+		73A58C38174C53E100778061 /* AKTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBarView.m; sourceTree = "<group>"; };
+		73A58C39174C53E100778061 /* UINavigationController+AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AKTabBarController.h"; sourceTree = "<group>"; };
+		73A58C3A174C53E100778061 /* UINavigationController+AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKTabBarController.m"; sourceTree = "<group>"; };
+		73A58C3B174C53E100778061 /* UIViewController+AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKTabBarController.h"; sourceTree = "<group>"; };
+		73A58C3C174C53E100778061 /* UIViewController+AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKTabBarController.m"; sourceTree = "<group>"; };
+		73A58C45174C6A5500778061 /* bus_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus_stop.png; sourceTree = "<group>"; };
+		73A58C47174C6A7000778061 /* sb_bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb_bus.png; sourceTree = "<group>"; };
+		73A58C48174C6A7000778061 /* suffolk_transit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suffolk_transit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +120,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73A58C2D174C4FBF00778061 /* SystemConfiguration.framework in Frameworks */,
+				73A58C2B174C4FB900778061 /* QuartzCore.framework in Frameworks */,
+				73A58C29174C4FB300778061 /* OpenGLES.framework in Frameworks */,
+				73A58C27174C4FAB00778061 /* libicucore.dylib in Frameworks */,
+				73A58C25174C4F9100778061 /* libz.dylib in Frameworks */,
+				73A58C23174C4F8900778061 /* libc++.dylib in Frameworks */,
+				73A58C21174C4F7F00778061 /* ImageIO.framework in Frameworks */,
+				73A58C1F174C4F7B00778061 /* GLKit.framework in Frameworks */,
+				73A58C1D174C4F7400778061 /* CoreText.framework in Frameworks */,
+				73A58C1B174C4F6E00778061 /* CoreLocation.framework in Frameworks */,
+				73A58C19174C4F6800778061 /* CoreData.framework in Frameworks */,
+				73A58C17174C4F5F00778061 /* AVFoundation.framework in Frameworks */,
 				73A58BD8174C4EB200778061 /* UIKit.framework in Frameworks */,
 				73A58BDA174C4EB200778061 /* Foundation.framework in Frameworks */,
 				73A58BDC174C4EB200778061 /* CoreGraphics.framework in Frameworks */,
+				73A58C13174C4ED300778061 /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +155,8 @@
 		73A58BCB174C4EB200778061 = {
 			isa = PBXGroup;
 			children = (
+				73A58C44174C6A2900778061 /* Images */,
+				73A58C2E174C53E100778061 /* AKTabBarController */,
 				73A58BDD174C4EB200778061 /* SBUTransit */,
 				73A58C01174C4EB200778061 /* SBUTransitTests */,
 				73A58BD6174C4EB200778061 /* Frameworks */,
@@ -106,6 +176,20 @@
 		73A58BD6174C4EB200778061 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73A58C2C174C4FBF00778061 /* SystemConfiguration.framework */,
+				73A58C2A174C4FB900778061 /* QuartzCore.framework */,
+				73A58C28174C4FB300778061 /* OpenGLES.framework */,
+				73A58C26174C4FAB00778061 /* libicucore.dylib */,
+				73A58C24174C4F9100778061 /* libz.dylib */,
+				73A58C22174C4F8900778061 /* libc++.dylib */,
+				73A58C20174C4F7F00778061 /* ImageIO.framework */,
+				73A58C1E174C4F7B00778061 /* GLKit.framework */,
+				73A58C1C174C4F7400778061 /* CoreText.framework */,
+				73A58C1A174C4F6E00778061 /* CoreLocation.framework */,
+				73A58C18174C4F6800778061 /* CoreData.framework */,
+				73A58C16174C4F5F00778061 /* AVFoundation.framework */,
+				73A58C14174C4F3400778061 /* GoogleMaps.bundle */,
+				73A58C12174C4ED300778061 /* GoogleMaps.framework */,
 				73A58BD7174C4EB200778061 /* UIKit.framework */,
 				73A58BD9174C4EB200778061 /* Foundation.framework */,
 				73A58BDB174C4EB200778061 /* CoreGraphics.framework */,
@@ -158,6 +242,37 @@
 				73A58C04174C4EB200778061 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A58C2E174C53E100778061 /* AKTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				73A58C2F174C53E100778061 /* AKTab.h */,
+				73A58C30174C53E100778061 /* AKTab.m */,
+				73A58C31174C53E100778061 /* AKTabBar.h */,
+				73A58C32174C53E100778061 /* AKTabBar.m */,
+				73A58C33174C53E100778061 /* AKTabBarController-Prefix.pch */,
+				73A58C34174C53E100778061 /* AKTabBarController.bundle */,
+				73A58C35174C53E100778061 /* AKTabBarController.h */,
+				73A58C36174C53E100778061 /* AKTabBarController.m */,
+				73A58C37174C53E100778061 /* AKTabBarView.h */,
+				73A58C38174C53E100778061 /* AKTabBarView.m */,
+				73A58C39174C53E100778061 /* UINavigationController+AKTabBarController.h */,
+				73A58C3A174C53E100778061 /* UINavigationController+AKTabBarController.m */,
+				73A58C3B174C53E100778061 /* UIViewController+AKTabBarController.h */,
+				73A58C3C174C53E100778061 /* UIViewController+AKTabBarController.m */,
+			);
+			path = AKTabBarController;
+			sourceTree = "<group>";
+		};
+		73A58C44174C6A2900778061 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				73A58C47174C6A7000778061 /* sb_bus.png */,
+				73A58C48174C6A7000778061 /* suffolk_transit.png */,
+				73A58C45174C6A5500778061 /* bus_stop.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +351,11 @@
 				73A58BEC174C4EB200778061 /* Default@2x.png in Resources */,
 				73A58BEE174C4EB200778061 /* Default-568h@2x.png in Resources */,
 				73A58BF4174C4EB200778061 /* ViewController.xib in Resources */,
+				73A58C15174C4F3400778061 /* GoogleMaps.bundle in Resources */,
+				73A58C3F174C53E100778061 /* AKTabBarController.bundle in Resources */,
+				73A58C46174C6A5500778061 /* bus_stop.png in Resources */,
+				73A58C49174C6A7000778061 /* sb_bus.png in Resources */,
+				73A58C4A174C6A7000778061 /* suffolk_transit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +393,12 @@
 				73A58BE4174C4EB200778061 /* main.m in Sources */,
 				73A58BE8174C4EB200778061 /* AppDelegate.m in Sources */,
 				73A58BF1174C4EB200778061 /* ViewController.m in Sources */,
+				73A58C3D174C53E100778061 /* AKTab.m in Sources */,
+				73A58C3E174C53E100778061 /* AKTabBar.m in Sources */,
+				73A58C40174C53E100778061 /* AKTabBarController.m in Sources */,
+				73A58C41174C53E100778061 /* AKTabBarView.m in Sources */,
+				73A58C42174C53E100778061 /* UINavigationController+AKTabBarController.m in Sources */,
+				73A58C43174C53E100778061 /* UIViewController+AKTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +507,14 @@
 		73A58C0D174C4EB200778061 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SBUTransit/SBUTransit-Prefix.pch";
 				INFOPLIST_FILE = "SBUTransit/SBUTransit-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +523,14 @@
 		73A58C0E174C4EB200778061 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SBUTransit/SBUTransit-Prefix.pch";
 				INFOPLIST_FILE = "SBUTransit/SBUTransit-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
