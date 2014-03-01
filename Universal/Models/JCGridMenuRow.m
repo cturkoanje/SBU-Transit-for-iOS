@@ -45,4 +45,9 @@
     return self;
 }
 
+-(void)setImage:(NSString*)newImage
+{
+    [_button setImage:[UIImage imageNamed:newImage] forState:UIControlStateHighlighted];
+}
+
 @end

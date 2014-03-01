@@ -148,7 +148,7 @@ CGFloat MBAlertViewDefaultHUDHideDelay = 0.65;
     CGRect bounds = [[UIScreen mainScreen] bounds];
     self.view = [[UIView alloc] initWithFrame:bounds];
     
-    [self.view setBackgroundColor:[UIColor clearColor]];
+    [self.view setBackgroundColor:[UIColor colorWithWhite:0.0 alpha:0.85]];
     self.view.autoresizingMask = [self fullAutoResizingMask];
     
     if([self sizeNotSet]) {
